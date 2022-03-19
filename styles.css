@@ -13,6 +13,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  font-family: Roboto, "Times New Roman", Times, serif;
 }
 
 .container {
@@ -64,4 +65,46 @@ ul {
 
 .nav ul li {
   padding: 8px;
+}
+
+/* nav-content */
+
+.nav-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  gap: 50px;
+}
+
+.nav-content h3 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.nav-content p {
+  color: #f9faf8;
+  margin: 10px 0;
+}
+
+.nav-content {
+  width: 50%;
+}
+
+.nav-image {
+  width: 50%;
+}
+
+.nav-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-content button {
+  color: #f9faf8;
+  background-color: #3883f6;
+  padding: 5px 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
 }
