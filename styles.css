@@ -115,9 +115,10 @@ ul {
 
 .section-one {
   text-align: center;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .section-one h3 {
@@ -143,4 +144,82 @@ ul {
   max-width: 200px;
   padding: 0;
   margin: 0;
+}
+
+/* Section two*/
+
+.section-two {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  min-height: 500px;
+  padding: 20px initial;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.author {
+  font-style: initial;
+  font-size: 24px;
+  text-align: end;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+/* Sectoion three */
+
+.section-three {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three-content {
+  background-color: #3883f6;
+  min-height: 175px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 70px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #f9faf8;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button {
+  border: 1px solid #f9faf8;
+  padding: 5px 15px;
+  background-color: #3883f6;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+/* footer */
+
+.footer {
+  height: 80px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
